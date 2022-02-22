@@ -1,7 +1,10 @@
 // Import stylesheets
 import './style.css';
 
-document.getElementById("demo").innerHTML = "Primo<br>";
-document.getElementById("demo").innerHTML += "Secondo<br>";
-document.getElementById("demo").innerHTML += "<b>Terzo</b>";
-document.getElementById("demo").innerHTML += "<br><i>Quarto</i>";
+// Write Javascript code!
+const appDiv = document.getElementById('app');
+appDiv.innerHTML = `<h1>JS Starter</h1>`;
+
+console.log("Primo");
+console.log("Secondo");
+console.log("Terzo");
